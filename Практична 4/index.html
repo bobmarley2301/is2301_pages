@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блокова модель CSS</title>
+    <style type="text/css">
+        body {
+            margin: 6%;
+        }
+        .main {
+            width: 86%;
+            background-color: yellow;
+            padding-left: 16%;
+            position: relative;
+        }
+        .inner {
+            width: 66%;
+            height: 30px;
+            background-color: yellow;
+            padding-top: 29%;
+        }
+        .container {
+            width: 100%;
+            padding: 16%;
+            background-color: #fff;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non aperiam eaque sunt ipsa aliquid. Temporibus nam eius odit? Laborum veniam in fuga quas, tempore est necessitatibus facere corrupti accusamus ea?</p>
+    </div>
+    <div class="inner">
+        <p>Цей абзац знаходиться всередині класу inner.</p>
+    </div>
+    <div class="container">
+        <p>Цей абзац знаходиться всередині класу container.</p>
+    </div>
+</body>
+</html>
